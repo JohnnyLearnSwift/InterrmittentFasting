@@ -9,23 +9,31 @@
 /* Begin PBXBuildFile section */
 		E9AF4B5B28CE0AD100C23E4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AF4B5A28CE0AD100C23E4A /* AppDelegate.swift */; };
 		E9AF4B5D28CE0AD100C23E4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AF4B5C28CE0AD100C23E4A /* SceneDelegate.swift */; };
-		E9AF4B5F28CE0AD100C23E4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AF4B5E28CE0AD100C23E4A /* ViewController.swift */; };
 		E9AF4B6228CE0AD100C23E4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9AF4B6028CE0AD100C23E4A /* Main.storyboard */; };
 		E9AF4B6528CE0AD100C23E4A /* InterrmittentFasting.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9AF4B6328CE0AD100C23E4A /* InterrmittentFasting.xcdatamodeld */; };
 		E9AF4B6728CE0AD200C23E4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9AF4B6628CE0AD200C23E4A /* Assets.xcassets */; };
 		E9AF4B6A28CE0AD200C23E4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9AF4B6828CE0AD200C23E4A /* LaunchScreen.storyboard */; };
+		E9AF4B7828CF01CB00C23E4A /* Parameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AF4B7728CF01CB00C23E4A /* Parameters.swift */; };
+		E9AF4B7A28CF024900C23E4A /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AF4B7928CF024900C23E4A /* StorageManager.swift */; };
+		E9AF4B7C28CF254000C23E4A /* ParametersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AF4B7B28CF254000C23E4A /* ParametersViewController.swift */; };
+		E9AF4B7E28CF255800C23E4A /* FastingTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AF4B7D28CF255800C23E4A /* FastingTimerViewController.swift */; };
+		E9AF4B8228CF25A600C23E4A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AF4B8128CF25A600C23E4A /* TabBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E9AF4B5728CE0AD100C23E4A /* InterrmittentFasting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterrmittentFasting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9AF4B5A28CE0AD100C23E4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9AF4B5C28CE0AD100C23E4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E9AF4B5E28CE0AD100C23E4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E9AF4B6128CE0AD100C23E4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E9AF4B6428CE0AD100C23E4A /* InterrmittentFasting.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InterrmittentFasting.xcdatamodel; sourceTree = "<group>"; };
 		E9AF4B6628CE0AD200C23E4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9AF4B6928CE0AD200C23E4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E9AF4B6B28CE0AD200C23E4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9AF4B7728CF01CB00C23E4A /* Parameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parameters.swift; sourceTree = "<group>"; };
+		E9AF4B7928CF024900C23E4A /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		E9AF4B7B28CF254000C23E4A /* ParametersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParametersViewController.swift; sourceTree = "<group>"; };
+		E9AF4B7D28CF255800C23E4A /* FastingTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastingTimerViewController.swift; sourceTree = "<group>"; };
+		E9AF4B8128CF25A600C23E4A /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +66,68 @@
 		E9AF4B5928CE0AD100C23E4A /* InterrmittentFasting */ = {
 			isa = PBXGroup;
 			children = (
-				E9AF4B5A28CE0AD100C23E4A /* AppDelegate.swift */,
-				E9AF4B5C28CE0AD100C23E4A /* SceneDelegate.swift */,
-				E9AF4B5E28CE0AD100C23E4A /* ViewController.swift */,
-				E9AF4B6028CE0AD100C23E4A /* Main.storyboard */,
-				E9AF4B6628CE0AD200C23E4A /* Assets.xcassets */,
-				E9AF4B6828CE0AD200C23E4A /* LaunchScreen.storyboard */,
-				E9AF4B6B28CE0AD200C23E4A /* Info.plist */,
+				E9AF4B7228CF016000C23E4A /* ViewControllers */,
+				E9AF4B7628CF01AA00C23E4A /* Services */,
+				E9AF4B7528CF019F00C23E4A /* Models */,
+				E9AF4B7128CF015600C23E4A /* App */,
+				E9AF4B7328CF017B00C23E4A /* Storyboards */,
+				E9AF4B7428CF018B00C23E4A /* Resources */,
 				E9AF4B6328CE0AD100C23E4A /* InterrmittentFasting.xcdatamodeld */,
 			);
 			path = InterrmittentFasting;
+			sourceTree = "<group>";
+		};
+		E9AF4B7128CF015600C23E4A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E9AF4B5A28CE0AD100C23E4A /* AppDelegate.swift */,
+				E9AF4B5C28CE0AD100C23E4A /* SceneDelegate.swift */,
+				E9AF4B6B28CE0AD200C23E4A /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E9AF4B7228CF016000C23E4A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E9AF4B7B28CF254000C23E4A /* ParametersViewController.swift */,
+				E9AF4B7D28CF255800C23E4A /* FastingTimerViewController.swift */,
+				E9AF4B8128CF25A600C23E4A /* TabBarViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E9AF4B7328CF017B00C23E4A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E9AF4B6028CE0AD100C23E4A /* Main.storyboard */,
+				E9AF4B6828CE0AD200C23E4A /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E9AF4B7428CF018B00C23E4A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E9AF4B6628CE0AD200C23E4A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E9AF4B7528CF019F00C23E4A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9AF4B7728CF01CB00C23E4A /* Parameters.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E9AF4B7628CF01AA00C23E4A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E9AF4B7928CF024900C23E4A /* StorageManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +201,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9AF4B5F28CE0AD100C23E4A /* ViewController.swift in Sources */,
+				E9AF4B7828CF01CB00C23E4A /* Parameters.swift in Sources */,
 				E9AF4B5B28CE0AD100C23E4A /* AppDelegate.swift in Sources */,
+				E9AF4B7A28CF024900C23E4A /* StorageManager.swift in Sources */,
+				E9AF4B8228CF25A600C23E4A /* TabBarViewController.swift in Sources */,
 				E9AF4B6528CE0AD100C23E4A /* InterrmittentFasting.xcdatamodeld in Sources */,
+				E9AF4B7C28CF254000C23E4A /* ParametersViewController.swift in Sources */,
+				E9AF4B7E28CF255800C23E4A /* FastingTimerViewController.swift in Sources */,
 				E9AF4B5D28CE0AD100C23E4A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,9 +358,11 @@
 				DEVELOPMENT_TEAM = 24C663Z4HT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = InterrmittentFasting/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Interrmitent Fasting";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -308,7 +374,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -322,9 +388,11 @@
 				DEVELOPMENT_TEAM = 24C663Z4HT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = InterrmittentFasting/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Interrmitent Fasting";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -336,7 +404,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
